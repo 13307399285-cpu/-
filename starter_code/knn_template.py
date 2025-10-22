@@ -124,7 +124,7 @@ def classify_person():
 
 # —— 死循环调用 ——
 if __name__ == "__main__":
-2131312    print("==== 约会数据 KNN 测试系统 ====")
+    print("==== 约会数据 KNN 测试系统 ====")
     print("输入'q'或'exit'可以退出。")
     while True:
        
