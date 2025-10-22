@@ -24,7 +24,7 @@ def file2matrix(filename):
     return return_mat,class_label_vector
 
 
-file_path = r"C:\Users\asus\Desktop\-the frist\datingTestSet2.txt"
+file_path = r"C:\Users\asus\Desktop\-\datingTestSet2.txt"
 dating_data_mat, dating_labels = file2matrix(file_path)
 
 plt.rcParams['font.sans-serif'] = ['SimHei']  # 使用黑体
@@ -131,4 +131,4 @@ if __name__ == "__main__":
         flag = classify_person()  
         if flag is None:  
             print("程序已退出。")
-            break
+            break 
